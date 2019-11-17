@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: rgb(0, 79, 163);
 }
 
 p {
@@ -23,7 +23,8 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgb(0, 79, 163);
+  /* color: rgba(255,255,255,.9); */
 }
   .parallax-container .section {
     width: 100%;
