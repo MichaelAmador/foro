@@ -80,7 +80,7 @@ footer.page-footer {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;  
 }
 
 .logo>img{
@@ -99,7 +99,7 @@ footer.page-footer {
 
 .textoUni{
   margin: 0px;
-  
+  text-align: right;
   background-color:#1565c0;
 }
 
