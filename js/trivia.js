@@ -32,12 +32,14 @@ btnSaludar.addEventListener('click', function () {
             var input = document.createElement("input");   
             input.type ="radio";
             input.name="p";
-            input.id = 0;
+            input.id = j;
             contenedor.appendChild(input);
             
             
             document.getElementById("pregunta").innerHTML += respuestas[i][j] + "<br>";
-            document.getElementById("puntuacion").innerHTML = "10";
+            var puntos = document.getElementById("puntos");
+            puntos = puntos + 10;
+            document.getElementById("puntos").innerHTML = puntos;
         }        
         contenedor.appendChild(boton);
         document.getElementById("p").innerHTML = "";
