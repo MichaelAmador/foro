@@ -24,7 +24,7 @@ btnSaludar.addEventListener('click', function () {
                 
         var boton =  document.createElement("button");   
             boton.value = "Verificar";
-            boton.id = "0";
+            boton.id = "h";
             boton.name = "btnVerificar";
             
         // contenedor.appendChild(input);       
@@ -41,6 +41,8 @@ btnSaludar.addEventListener('click', function () {
         }        
         contenedor.appendChild(boton);
         document.getElementById("p").innerHTML = "";
+        document.getElementById("h").innerHTML = "Verificar";
+
         // document.writeln("2");
     }    
     

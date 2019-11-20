@@ -37,3 +37,14 @@ span{
     background: black;
     color:  red;
 }
+
+.puntuacion{
+    margin: 1rem auto;
+    text-align: center;
+}
+
+button{
+    background-color: red;
+    font-size: 50px;
+}
+
