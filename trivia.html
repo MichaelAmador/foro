@@ -13,12 +13,23 @@
 <body>
     <h1 id="titulo">Pon a prueba lo Aprendido!!!</h1>
 
-    <div id="preguntas">
-        <button id="btnSaludar">Empezar</button> <br>
-        <span id="pregunta"></span>
-        <span id="p"></span>
-    </div>
+    
+        <div id="preguntas">
+            <button id="btnSaludar">Empezar</button> <br>
+            <span id="pregunta"></span>
+            <span id="p"></span>   <br>
+            <form name="frm">
+            <input type="radio" name="k" id="0" value="0" style="visibility: hidden;"><span id="txt1" style="visibility: hidden;"></span>    <br>
+            <input type="radio" name="k" id="1" value="1" style="visibility: hidden;" ><span id="txt2" style="visibility: hidden;"></span>    <br>
+            <input type="radio" name="k" id="2" value="2" style="visibility: hidden;" ><span id="txt3" style="visibility: hidden;"></span>    <br>
+            </form>
+            <button id="btnVerificar" style="visibility: hidden;">Verificar</button> <br>  
+        </div>
+    
+    
    
+    <span id="seleccion" style="visibility: hidden;">Correctas</span>
+
     <!-- <h1>Contador de Visitas</h1> -->
     <div class="puntaje">
         <p class="puntos" id="puntos">0</p>
